@@ -197,7 +197,7 @@ NOTE：`element:nth-of-type(n)` 指父元素下第 n 个 `element` 元素，`ele
 
 ##### 伪元素选择器
 
-注意与伪类学则器的区分。
+注意与伪类选择器的区分。
 
 - `::first-letter` IE6+
 - `::first-line` IE6+
