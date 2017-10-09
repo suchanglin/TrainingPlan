@@ -18,13 +18,13 @@
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
 - [第一章  页面制作](chapter1/00_intro.md)
-  - [Photoshop](chapter1/01_photoshop.md)
+  - [Photoshop](chapter1/01_00photoshop.md)
     - [工具、面板、视图](chapter1/01_01_tool_panel_view.md)
     - [测量及取色](chapter1/01_02_measurement_and_color.md)
     - [切图](chapter1/01_03_slice.md)
     - [图片保存](chapter1/01_04_save_image.md)
     - [图片优化与合并](chapter1/01_05_image_optimisation.md)
-  - [开发及调试工具](chapter1/02_dev_tools.md)
+  - [开发及调试工具](chapter1/02_00dev_tools.md)
     - [Sublime 编辑器](chapter1/02_01_sublime.md)
     - [Atom 编辑器](chapter1/02_02_atom.md)
   - [HTML](chapter1/03_html.md)
