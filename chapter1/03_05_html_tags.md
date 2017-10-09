@@ -206,8 +206,8 @@ NOTE: `<dl>` 为自定义列表，其中包含一个或多个 `<dt>` 及 一个�
 ```html
 <img src="mama.jpg" width=100 height=100 usemap="#map" />
 <map name="map">
-    <area shap="rect" coords="0,0,50,50" href="" alt="">
-    <area shap="circle" coords="75,75,25" href="" alt="">
+    <area shape="rect" coords="0,0,50,50" href="" alt="">
+    <area shape="circle" coords="75,75,25" href="" alt="">
 </map>
 ```
 
