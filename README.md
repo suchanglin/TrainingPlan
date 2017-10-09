@@ -2,7 +2,7 @@
 
 
 
-《前端笔记本》涵盖了 Web 前端开发所需的全部基本知识以及所对应的学习路径。它并不能当做一本完整的学习材料来进行前端的学习，因为在有限的篇幅中无法深入的展开每一个单独的知识点。它更适合作为一个学习清单或者是查询手册，结合其他在各个方面更专业的图书或者官方文档来进行同步学习。在学习过程中为了能达到最佳的学习效果，也可将每个技术点实现并进行适当的拓展。
+   《前端笔记本》涵盖了 Web 前端开发所需的全部基本知识以及所对应的学习路径。它并不能当做一本完整的学习材料来进行前端的学习，因为在有限的篇幅中无法深入的展开每一个单独的知识点。它更适合作为一个学习清单或者是查询手册，结合其他在各个方面更专业的图书或者官方文档来进行同步学习。在学习过程中为了能达到最佳的学习效果，也可将每个技术点实现并进行适当的拓展。
 
 ### 写作进程
 
@@ -15,8 +15,9 @@
 | 第四章  | 页面构架            | ![](http://progressed.io/bar/100) |
 | 第五章  | 前端产品构架        | ![](http://progressed.io/bar/100) |
 
-
-- [页面制作](chapter1/00_intro.md)
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+- [第一章  页面制作](chapter1/00_intro.md)
   - [Photoshop](chapter1/01_photoshop.md)
     - [工具、面板、视图](chapter1/01_01_tool_panel_view.md)
     - [测量及取色](chapter1/01_02_measurement_and_color.md)
@@ -42,7 +43,7 @@
     - [变形](chapter1/04_07_transform.md)
     - [动画](chapter1/04_08_animation.md)
     - [常见布局样例](chapter1/04_09_layout_demo.md)
-- [JavaScript 程序设计](chapter2/00_intro.md)
+- [第二章  JavaScript 程序设计](chapter2/00_intro.md)
   - [JavaScript 介绍](chapter2/01_javascript_intro.md)
   - [调试器](chapter2/02_dev_tools.md)
   - [基础语法](chapter2/03_basic_syntax.md)
@@ -55,7 +56,7 @@
   - [闭包](chapter2/09_closure.md)
   - [面向对象](chapter2/10_object.md)
   - [正则表达式](chapter2/12_reg_exp.md)
-- [DOM 编程](chapter3/00_intro.md)
+- [第三章  DOM 编程](chapter3/00_intro.md)
   - [文档树（DOM Tree）](chapter3/01_dom_tree.md)
   - [节点操作](chapter3/02_node_manipulation.md)
   - [操作属性](chapter3/03_attribute.md)
@@ -69,13 +70,13 @@
   - [动画](chapter3/06_animation.md)
   - [表单操作](chapter3/12_form_manipulation.md)
   - [列表操作](chapter3/13_list_manipulation.md)
-- [页面架构](chapter4/00_intro.md)
+- [第四章  页面架构](chapter4/00_intro.md)
   - [CSS Reset](chapter4/01_CSS_Reset.md)
   - [布局解决方案](chapter4/02_layout.md)
   - [响应式布局](chapter4/03_responsive.md)
   - [页面优化](chapter4/04_page_optimisation.md)
   - [规范与模块化](chapter4/05_modulation.md)
-- [产品前端架构](chapter5/00_intro.md)
+- [第五章  产品前端架构](chapter5/00_intro.md)
   - [协作流程](chapter5/01_collaboration.md)
   - [接口设计](chapter5/02_design_api.md)
   - [版本控制](chapter5/03_version_control.md)
