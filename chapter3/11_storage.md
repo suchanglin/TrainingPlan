@@ -108,11 +108,11 @@ function removeCookie(name, path, domain) {
 
 因为 Cookie 弊端的存在，所以在 HTML5 中提供了 Storage 的替代方案。
 
-作用域的不同 Storage 分为 Local Storage 和 Session Storage，前者在用户不清理的情况下默认时间为永久，后者默认事件则为浏览器的会话时间（浏览器不同窗口直接不共享 Session Storage）。
+作用域的不同， Storage 分为 Local Storage 和 Session Storage，前者在用户不清理的情况下默认时间为永久，后者默认事件则为浏览器的会话时间（浏览器不同窗口直接不共享 Session Storage）。
 
 ![](../img/S/storage-scope.png)
 
-不同浏览器对其实现的不同导致支持大小也不太，通常在 5MB 作用。
+不同浏览器对其实现的不同导致支持大小也不同，通常在 5MB 左右。
 
 #### 对象
 
