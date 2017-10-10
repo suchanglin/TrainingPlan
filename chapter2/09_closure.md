@@ -51,7 +51,7 @@ var addHandlers = function(nodes) {
     }
   }
 
-  var (var i = 0, len = nodes.length; i < len; i++) {
+  for(var i = 0, len = nodes.length; i < len; i++) {
     nodes[i].onclick = helper(i);
   }
 }
