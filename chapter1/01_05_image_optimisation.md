@@ -24,7 +24,7 @@ background: url(image/sprite.png) no-repeat 0 -50px;
 </style>
 ```
 
-图片的**合并**就如同上面提到的切图后保存的过程。拼好的图称之为 **Sprite** 它能减少网络请求次数提高速度。图片压缩工具分为无损（ImageOptim 等工具，也可结合 Grunt 自动化构建工具一同使用）与有损压缩工具（TinyPng）。
+图片的**合并**就如同上面提到的切图后保存的过程。拼好的图称之为 **Sprite** 它能减少网络请求次数提高速度。图片压缩工具分为无损[ImageOptim](https://imageoptim.com/mac) 等工具，也可结合 Grunt 自动化构建工具一同使用）与有损压缩工具[TinyPng](https://tinypng.com/)。
 
 #### 图片合并
 
