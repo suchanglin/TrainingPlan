@@ -20,8 +20,9 @@ Web 1.0 -> Web 2.0（基于 Ajax） -> Web 3.0 （基于 HTML5）
 
 **所需技能**
 
+- Photoshop (取图)
+- HTML (定义页面结果)
+- CSS (定义页面样式)
 - DOM (操作 HTML 及 CSS 的接口)
 - JavaScript (定义页面互动)
-- CSS (定义页面样式)
-- HTML (定义页面结果)
-- Photoshop (取图)
+
