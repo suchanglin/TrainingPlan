@@ -20,7 +20,7 @@
 - 行高 (line-height)，其为第一行的底端到第二行的底端。
 - 背景位置 (background-position)
 
-NOTE: 测量时尽可能放大画布以减少误差。量取文字是为了减少误差尽量选取尺寸大的文字进行测量。
+NOTE: 测量时尽可能放大画布以减少误差。量取文字是为了减少误差，尽量选取尺寸大的文字进行测量。
 
 ![](../img/P/photoshop-measure&colorSelection.png)
 
