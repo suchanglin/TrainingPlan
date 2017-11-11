@@ -34,7 +34,7 @@ var obj0 = new Object();
 
 **Undefined** 值：undefined 出现场景：
 
-- 以声明为赋值的变量 `var obj;`
+- 已声明未赋值的变量 `var obj;`
 - 获取对象不存在的属性 `var obj = {x: 0}; obj.y;`
 - 无返回值函数的执行结果 `function f(){}; var obj = f();`
 - 函数参数没有传入 `function f(i){console.log(i)}; f();`
