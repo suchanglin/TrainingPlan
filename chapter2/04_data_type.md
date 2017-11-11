@@ -67,7 +67,7 @@ var obj0 = new Object();
 ### 变量转换表
 
 |Value|Boolean|Number|String|
-|-----|-------|------|------|
+|:-----:|:-------:|:------:|:------:|
 |undefined|false|NaN|"undefined"|
 |null|false|0|"null"|
 |true|true|1|"true"|
