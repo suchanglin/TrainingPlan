@@ -219,7 +219,7 @@ var sampleSingleNode = element.querySelector('#className');
 var sampleAllNodes = element.querySelectorAll('#className');
 ```
 
-NOTE: IE9 一下不支持 `querySelector` 与 `querySelectorAll`
+NOTE: IE9 以下不支持 `querySelector` 与 `querySelectorAll`
 
 ### 创建节点
 
@@ -240,11 +240,11 @@ element.textContent; // 获取
 element.textContent = 'New Content';
 ```
 
-NOTE：不支持 IE 9 及其一下版本。
+NOTE：不支持 IE 9 及其以下版本。
 
 **innerText** （不符合 W3C 规范）
 
-获取或设置节点以及节点后代的文本内容。其作用于 `textContent` 几乎一致。
+获取或设置节点以及节点后代的文本内容。其作用与 `textContent` 几乎一致。
 
 ```javascript
 element.innerText;

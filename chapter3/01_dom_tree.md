@@ -191,7 +191,7 @@ __proto__: HTMLParagraphElement
 
 ```Javascript
 // Document.getElementsByTagName()
-// 更具标签名找到目标节点的集合，此例中为 <h1>My header</h1>
+// 根据标签名找到目标节点的集合，此例中为 <h1>My header</h1>
 var node = document.getElementsByTagName('h1')[0];
 
 // Node.parentNode;
