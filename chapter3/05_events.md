@@ -201,7 +201,7 @@ elem.dispatchEvent('click');
 
 以上均为 **W3C**定义的标准定义，但早期浏览器 IE8 及其以下版本，均没有采用标准的实现方式。不过这些低版本浏览器也提供了对于 DOM 事件的注册、取消以及触发的实现。
 
-**事件注册与取消**，`attchEvent/detachEvent`。**事件触发**，`fireEvent(e)`，其也**不存在**捕获阶段（Capture Phase）。
+**事件注册与取消**，`attachEvent/detachEvent`。**事件触发**，`fireEvent(e)`，其也**不存在**捕获阶段（Capture Phase）。
 
 
 ##### 兼容低版本代码实现
@@ -296,7 +296,7 @@ var clickHandler = function(event) {
 ![](../img/E/event_types.jpg)
 
 |事件类型|是否冒泡|元素|默认事件|元素例子|
-|--------|--------|----|--------|--------|
+|--------|:--------:|----|:--------:|--------|
 |load|NO|Window, Document, Element|None|window, image, iframe|
 |unload|NO|Window, Document, Element|None|window|
 |error|NO|Window, Element|None|window, image|
@@ -325,7 +325,7 @@ var clickHandler = function(event) {
 #### UIEvent
 
 |事件类型|是否冒泡|元素|默认事件|元素例子|
-|--------|--------|----|--------|--------|
+|--------|:--------:|----|:--------:|--------|
 |resize|NO|Window, Element|None|window, iframe|
 |scroll|NO/YES|Document, Element|None|document, div|
 
@@ -336,7 +336,7 @@ NOTE：`resize` 为改变浏览器或`iframe`的窗体大小时会触发事件�
 DOM 事件中最常见的事件之一。
 
 |事件类型|是否冒泡|元素|默认事件|元素例子|
-|--------|--------|----|--------|--------|
+|--------|:--------:|----|:--------:|:--------:|
 |click|YES|Element|focus/activation|div|
 |dbclick|YES|Element|focus/activation/select|div|
 |mousedown|YES|Element|drag/scroll/text selection|div|
@@ -422,7 +422,7 @@ addEvent(elem, 'mousemove', mouseMoveHandler);
 #### 滚轮事件（Wheel）
 
 |事件类型|是否冒泡|元素|默认事件|元素例子|
-|--------|--------|----|--------|--------|
+|--------|:--------:|----|--------|:--------:|
 |wheel|YES|Element|scroll or zoom document|div|
 
 **属性**
@@ -437,7 +437,7 @@ addEvent(elem, 'mousemove', mouseMoveHandler);
 其用于处理元素获得或失去焦点的事件。（例如输入框的可输入状态则为获得焦点，点击外部则失去焦点）
 
 |事件类型|是否冒泡|元素|默认事件|元素例子|
-|--------|--------|----|--------|--------|
+|--------|:--------:|----|:--------:|--------|
 |blur|NO|Window, Element|None|window, input|
 |focus|NO|Window, Element|None|window, input|
 |focusin|NO|window, Element|None|window, input|
@@ -456,7 +456,7 @@ NOTE：`blur` 失去焦点时，`focus` 获得焦点时，`focusin` 即将获得
 输入框输入内容则会触发输入事件。
 
 |事件类型|是否冒泡|元素|默认事件|元素例子|
-|--------|--------|----|--------|--------|
+|--------|:--------:|----|--------|:--------:|
 |beforeInput|YES|Element|update DOM Element|input|
 |input|YES|Element|None|input|
 
@@ -469,7 +469,7 @@ NOTE+：IE 并没有 `InputEvent` 则需使用 `onpropertychange(IE)` 来代替�
 其用于处理键盘事件。
 
 |事件类型|是否冒泡|元素|默认事件|元素例子|
-|--------|--------|----|--------|--------|
+|--------|:--------:|----|--------|--------|
 |keydown|YES|Element|beforeInput/input/focus/blur/activation|div, input|
 |keyup|YES|Element|None|div, input|
 

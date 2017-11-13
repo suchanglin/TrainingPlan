@@ -20,7 +20,7 @@
 ```html
 <div>
   <label for="username">User Name: </label>
-  <input type="input" name="username" id="username" class="text" value="">
+  <input type="text" name="username" id="username" class="text" value="">
 </div>
 ```
 
