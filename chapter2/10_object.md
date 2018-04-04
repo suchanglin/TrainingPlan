@@ -1,4 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+﻿<!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
@@ -40,13 +40,13 @@
 
 #### 面向过程
 
-以程序的过程为中心，采用自定而下逐步细化的方法来实现。常见的面向过程语言有 C、Fortran、Pascall。
+以程序的过程为中心，采用自顶向下逐步细化的方法来实现。常见的面向过程语言有 C、Fortran、Pascall。
 
 ![](../img/P/procedure_programming.png)
 
 #### 面向对象
 
-将对象作为程序的基本单元，将程序分解为数据和操作的集合。常见的面向过程语言有 smalltalk（也是 Objective-C 的父亲）、Java、C++。
+将对象作为程序的基本单元，将程序分解为数据和操作的集合。常见的面向对象语言有 smalltalk（也是 Objective-C 的父亲）、Java、C++。
 
 ![](../img/O/object-oriented-programming.png)
 
